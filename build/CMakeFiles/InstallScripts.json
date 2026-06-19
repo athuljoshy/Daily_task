@@ -6,7 +6,8 @@
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/NotGate/cmake_install.cmake",
-		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/cmake_install.cmake"
+		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/cmake_install.cmake",
+		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/XorGate/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

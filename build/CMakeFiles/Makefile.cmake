@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/PERSONAL/Documents/SystemC/Practice/NorGate/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/NotGate/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/OrGate/CMakeLists.txt"
+  "C:/Users/PERSONAL/Documents/SystemC/Practice/XorGate/CMakeLists.txt"
   "CMakeFiles/4.3.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.3.3/CMakeRCCompiler.cmake"
@@ -65,6 +66,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "NorGate/CMakeFiles/CMakeDirectoryInformation.cmake"
   "NotGate/CMakeFiles/CMakeDirectoryInformation.cmake"
   "OrGate/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "XorGate/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -74,4 +76,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "NorGate/CMakeFiles/NorGate.dir/DependInfo.cmake"
   "NotGate/CMakeFiles/NotGate.dir/DependInfo.cmake"
   "OrGate/CMakeFiles/OrGate.dir/DependInfo.cmake"
+  "XorGate/CMakeFiles/XorGate.dir/DependInfo.cmake"
   )

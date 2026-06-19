@@ -153,6 +153,30 @@ src/NotGate.cpp.s:
 	cd /d C:\Users\PERSONAL\Documents\SystemC\Practice\build && $(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/src/NotGate.cpp.s
 .PHONY : src/NotGate.cpp.s
 
+tests/NotGate_test.obj: tests/NotGate_test.cpp.obj
+.PHONY : tests/NotGate_test.obj
+
+# target to build an object file
+tests/NotGate_test.cpp.obj:
+	cd /d C:\Users\PERSONAL\Documents\SystemC\Practice\build && $(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/tests/NotGate_test.cpp.obj
+.PHONY : tests/NotGate_test.cpp.obj
+
+tests/NotGate_test.i: tests/NotGate_test.cpp.i
+.PHONY : tests/NotGate_test.i
+
+# target to preprocess a source file
+tests/NotGate_test.cpp.i:
+	cd /d C:\Users\PERSONAL\Documents\SystemC\Practice\build && $(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/tests/NotGate_test.cpp.i
+.PHONY : tests/NotGate_test.cpp.i
+
+tests/NotGate_test.s: tests/NotGate_test.cpp.s
+.PHONY : tests/NotGate_test.s
+
+# target to generate assembly for a file
+tests/NotGate_test.cpp.s:
+	cd /d C:\Users\PERSONAL\Documents\SystemC\Practice\build && $(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/tests/NotGate_test.cpp.s
+.PHONY : tests/NotGate_test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +189,9 @@ help:
 	@echo ... src/NotGate.obj
 	@echo ... src/NotGate.i
 	@echo ... src/NotGate.s
+	@echo ... tests/NotGate_test.obj
+	@echo ... tests/NotGate_test.i
+	@echo ... tests/NotGate_test.s
 .PHONY : help
 
 
