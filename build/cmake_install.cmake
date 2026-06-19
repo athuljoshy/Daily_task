@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/cmake_install.cmake")
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/NotGate/cmake_install.cmake")
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/cmake_install.cmake")
+  include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/XorGate/cmake_install.cmake")
 
 endif()
 

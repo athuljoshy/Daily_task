@@ -180,6 +180,19 @@ OrGate/fast:
 	$(MAKE) $(MAKESILENT) -f OrGate\CMakeFiles\OrGate.dir\build.make OrGate/CMakeFiles/OrGate.dir/build
 .PHONY : OrGate/fast
 
+#=============================================================================
+# Target rules for targets named XorGate
+
+# Build rule for target.
+XorGate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XorGate
+.PHONY : XorGate
+
+# fast build rule for target.
+XorGate/fast:
+	$(MAKE) $(MAKESILENT) -f XorGate\CMakeFiles\XorGate.dir\build.make XorGate/CMakeFiles/XorGate.dir/build
+.PHONY : XorGate/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -193,6 +206,7 @@ help:
 	@echo ... NorGate
 	@echo ... NotGate
 	@echo ... OrGate
+	@echo ... XorGate
 .PHONY : help
 
 
