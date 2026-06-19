@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "SystemC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/systemc/include"
+            ],
+            "defines": [],
+            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++98",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

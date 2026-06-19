@@ -1,0 +1,17 @@
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/AndGate.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/CMakeFiles/NandGate.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/CMakeFiles/NorGate.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NotGate/CMakeFiles/NotGate.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NotGate/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/NotGate/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/CMakeFiles/OrGate.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/OrGate/CMakeFiles/rebuild_cache.dir
