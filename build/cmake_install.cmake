@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/cmake_install.cmake")
+  include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/ClockGenerator_SC_THREAD/cmake_install.cmake")
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/DFlipFlop/cmake_install.cmake")
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/cmake_install.cmake")
   include("C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/cmake_install.cmake")

@@ -129,6 +129,19 @@ AndGate/fast:
 .PHONY : AndGate/fast
 
 #=============================================================================
+# Target rules for targets named ClockGenerator_SC_THREAD
+
+# Build rule for target.
+ClockGenerator_SC_THREAD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ClockGenerator_SC_THREAD
+.PHONY : ClockGenerator_SC_THREAD
+
+# fast build rule for target.
+ClockGenerator_SC_THREAD/fast:
+	$(MAKE) $(MAKESILENT) -f ClockGenerator_SC_THREAD\CMakeFiles\ClockGenerator_SC_THREAD.dir\build.make ClockGenerator_SC_THREAD/CMakeFiles/ClockGenerator_SC_THREAD.dir/build
+.PHONY : ClockGenerator_SC_THREAD/fast
+
+#=============================================================================
 # Target rules for targets named DFlipFlop
 
 # Build rule for target.
@@ -267,6 +280,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AndGate
+	@echo ... ClockGenerator_SC_THREAD
 	@echo ... DFlipFlop
 	@echo ... NandGate
 	@echo ... NorGate

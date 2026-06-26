@@ -3,6 +3,7 @@
 	[
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/cmake_install.cmake",
+		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/ClockGenerator_SC_THREAD/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/DFlipFlop/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/NandGate/cmake_install.cmake",
 		"C:/Users/PERSONAL/Documents/SystemC/Practice/build/NorGate/cmake_install.cmake",
