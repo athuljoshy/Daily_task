@@ -129,6 +129,19 @@ AndGate/fast:
 .PHONY : AndGate/fast
 
 #=============================================================================
+# Target rules for targets named DFlipFlop
+
+# Build rule for target.
+DFlipFlop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DFlipFlop
+.PHONY : DFlipFlop
+
+# fast build rule for target.
+DFlipFlop/fast:
+	$(MAKE) $(MAKESILENT) -f DFlipFlop\CMakeFiles\DFlipFlop.dir\build.make DFlipFlop/CMakeFiles/DFlipFlop.dir/build
+.PHONY : DFlipFlop/fast
+
+#=============================================================================
 # Target rules for targets named NandGate
 
 # Build rule for target.
@@ -181,6 +194,58 @@ OrGate/fast:
 .PHONY : OrGate/fast
 
 #=============================================================================
+# Target rules for targets named ProducerConsumer
+
+# Build rule for target.
+ProducerConsumer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProducerConsumer
+.PHONY : ProducerConsumer
+
+# fast build rule for target.
+ProducerConsumer/fast:
+	$(MAKE) $(MAKESILENT) -f ProducerConsumer\CMakeFiles\ProducerConsumer.dir\build.make ProducerConsumer/CMakeFiles/ProducerConsumer.dir/build
+.PHONY : ProducerConsumer/fast
+
+#=============================================================================
+# Target rules for targets named SimpleAdder
+
+# Build rule for target.
+SimpleAdder: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleAdder
+.PHONY : SimpleAdder
+
+# fast build rule for target.
+SimpleAdder/fast:
+	$(MAKE) $(MAKESILENT) -f SimpleAdder\CMakeFiles\SimpleAdder.dir\build.make SimpleAdder/CMakeFiles/SimpleAdder.dir/build
+.PHONY : SimpleAdder/fast
+
+#=============================================================================
+# Target rules for targets named Timer_SC_THREAD
+
+# Build rule for target.
+Timer_SC_THREAD: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Timer_SC_THREAD
+.PHONY : Timer_SC_THREAD
+
+# fast build rule for target.
+Timer_SC_THREAD/fast:
+	$(MAKE) $(MAKESILENT) -f Timer_SC_THREAD\CMakeFiles\Timer_SC_THREAD.dir\build.make Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/build
+.PHONY : Timer_SC_THREAD/fast
+
+#=============================================================================
+# Target rules for targets named XnorGate
+
+# Build rule for target.
+XnorGate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XnorGate
+.PHONY : XnorGate
+
+# fast build rule for target.
+XnorGate/fast:
+	$(MAKE) $(MAKESILENT) -f XnorGate\CMakeFiles\XnorGate.dir\build.make XnorGate/CMakeFiles/XnorGate.dir/build
+.PHONY : XnorGate/fast
+
+#=============================================================================
 # Target rules for targets named XorGate
 
 # Build rule for target.
@@ -202,10 +267,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... AndGate
+	@echo ... DFlipFlop
 	@echo ... NandGate
 	@echo ... NorGate
 	@echo ... NotGate
 	@echo ... OrGate
+	@echo ... ProducerConsumer
+	@echo ... SimpleAdder
+	@echo ... Timer_SC_THREAD
+	@echo ... XnorGate
 	@echo ... XorGate
 .PHONY : help
 

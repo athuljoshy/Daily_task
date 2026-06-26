@@ -63,37 +63,57 @@ CMAKE_BINARY_DIR = C:\Users\PERSONAL\Documents\SystemC\Practice\build
 
 # The main recursive "all" target.
 all: AndGate/all
+all: DFlipFlop/all
 all: NandGate/all
 all: NorGate/all
 all: NotGate/all
 all: OrGate/all
+all: ProducerConsumer/all
+all: SimpleAdder/all
+all: Timer_SC_THREAD/all
+all: XnorGate/all
 all: XorGate/all
 .PHONY : all
 
 # The main recursive "codegen" target.
 codegen: AndGate/codegen
+codegen: DFlipFlop/codegen
 codegen: NandGate/codegen
 codegen: NorGate/codegen
 codegen: NotGate/codegen
 codegen: OrGate/codegen
+codegen: ProducerConsumer/codegen
+codegen: SimpleAdder/codegen
+codegen: Timer_SC_THREAD/codegen
+codegen: XnorGate/codegen
 codegen: XorGate/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
 preinstall: AndGate/preinstall
+preinstall: DFlipFlop/preinstall
 preinstall: NandGate/preinstall
 preinstall: NorGate/preinstall
 preinstall: NotGate/preinstall
 preinstall: OrGate/preinstall
+preinstall: ProducerConsumer/preinstall
+preinstall: SimpleAdder/preinstall
+preinstall: Timer_SC_THREAD/preinstall
+preinstall: XnorGate/preinstall
 preinstall: XorGate/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: AndGate/clean
+clean: DFlipFlop/clean
 clean: NandGate/clean
 clean: NorGate/clean
 clean: NotGate/clean
 clean: OrGate/clean
+clean: ProducerConsumer/clean
+clean: SimpleAdder/clean
+clean: Timer_SC_THREAD/clean
+clean: XnorGate/clean
 clean: XorGate/clean
 .PHONY : clean
 
@@ -115,6 +135,25 @@ AndGate/preinstall:
 # Recursive "clean" directory target.
 AndGate/clean: AndGate/CMakeFiles/AndGate.dir/clean
 .PHONY : AndGate/clean
+
+#=============================================================================
+# Directory level rules for directory DFlipFlop
+
+# Recursive "all" directory target.
+DFlipFlop/all: DFlipFlop/CMakeFiles/DFlipFlop.dir/all
+.PHONY : DFlipFlop/all
+
+# Recursive "codegen" directory target.
+DFlipFlop/codegen: DFlipFlop/CMakeFiles/DFlipFlop.dir/codegen
+.PHONY : DFlipFlop/codegen
+
+# Recursive "preinstall" directory target.
+DFlipFlop/preinstall:
+.PHONY : DFlipFlop/preinstall
+
+# Recursive "clean" directory target.
+DFlipFlop/clean: DFlipFlop/CMakeFiles/DFlipFlop.dir/clean
+.PHONY : DFlipFlop/clean
 
 #=============================================================================
 # Directory level rules for directory NandGate
@@ -193,6 +232,82 @@ OrGate/clean: OrGate/CMakeFiles/OrGate.dir/clean
 .PHONY : OrGate/clean
 
 #=============================================================================
+# Directory level rules for directory ProducerConsumer
+
+# Recursive "all" directory target.
+ProducerConsumer/all: ProducerConsumer/CMakeFiles/ProducerConsumer.dir/all
+.PHONY : ProducerConsumer/all
+
+# Recursive "codegen" directory target.
+ProducerConsumer/codegen: ProducerConsumer/CMakeFiles/ProducerConsumer.dir/codegen
+.PHONY : ProducerConsumer/codegen
+
+# Recursive "preinstall" directory target.
+ProducerConsumer/preinstall:
+.PHONY : ProducerConsumer/preinstall
+
+# Recursive "clean" directory target.
+ProducerConsumer/clean: ProducerConsumer/CMakeFiles/ProducerConsumer.dir/clean
+.PHONY : ProducerConsumer/clean
+
+#=============================================================================
+# Directory level rules for directory SimpleAdder
+
+# Recursive "all" directory target.
+SimpleAdder/all: SimpleAdder/CMakeFiles/SimpleAdder.dir/all
+.PHONY : SimpleAdder/all
+
+# Recursive "codegen" directory target.
+SimpleAdder/codegen: SimpleAdder/CMakeFiles/SimpleAdder.dir/codegen
+.PHONY : SimpleAdder/codegen
+
+# Recursive "preinstall" directory target.
+SimpleAdder/preinstall:
+.PHONY : SimpleAdder/preinstall
+
+# Recursive "clean" directory target.
+SimpleAdder/clean: SimpleAdder/CMakeFiles/SimpleAdder.dir/clean
+.PHONY : SimpleAdder/clean
+
+#=============================================================================
+# Directory level rules for directory Timer_SC_THREAD
+
+# Recursive "all" directory target.
+Timer_SC_THREAD/all: Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/all
+.PHONY : Timer_SC_THREAD/all
+
+# Recursive "codegen" directory target.
+Timer_SC_THREAD/codegen: Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/codegen
+.PHONY : Timer_SC_THREAD/codegen
+
+# Recursive "preinstall" directory target.
+Timer_SC_THREAD/preinstall:
+.PHONY : Timer_SC_THREAD/preinstall
+
+# Recursive "clean" directory target.
+Timer_SC_THREAD/clean: Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/clean
+.PHONY : Timer_SC_THREAD/clean
+
+#=============================================================================
+# Directory level rules for directory XnorGate
+
+# Recursive "all" directory target.
+XnorGate/all: XnorGate/CMakeFiles/XnorGate.dir/all
+.PHONY : XnorGate/all
+
+# Recursive "codegen" directory target.
+XnorGate/codegen: XnorGate/CMakeFiles/XnorGate.dir/codegen
+.PHONY : XnorGate/codegen
+
+# Recursive "preinstall" directory target.
+XnorGate/preinstall:
+.PHONY : XnorGate/preinstall
+
+# Recursive "clean" directory target.
+XnorGate/clean: XnorGate/CMakeFiles/XnorGate.dir/clean
+.PHONY : XnorGate/clean
+
+#=============================================================================
 # Directory level rules for directory XorGate
 
 # Recursive "all" directory target.
@@ -244,13 +359,45 @@ AndGate/CMakeFiles/AndGate.dir/clean:
 .PHONY : AndGate/CMakeFiles/AndGate.dir/clean
 
 #=============================================================================
+# Target rules for target DFlipFlop/CMakeFiles/DFlipFlop.dir
+
+# All Build rule for target.
+DFlipFlop/CMakeFiles/DFlipFlop.dir/all:
+	$(MAKE) $(MAKESILENT) -f DFlipFlop\CMakeFiles\DFlipFlop.dir\build.make DFlipFlop/CMakeFiles/DFlipFlop.dir/depend
+	$(MAKE) $(MAKESILENT) -f DFlipFlop\CMakeFiles\DFlipFlop.dir\build.make DFlipFlop/CMakeFiles/DFlipFlop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=4,5,6 "Built target DFlipFlop"
+.PHONY : DFlipFlop/CMakeFiles/DFlipFlop.dir/all
+
+# Build rule for subdir invocation for target.
+DFlipFlop/CMakeFiles/DFlipFlop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DFlipFlop/CMakeFiles/DFlipFlop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 0
+.PHONY : DFlipFlop/CMakeFiles/DFlipFlop.dir/rule
+
+# Convenience name for target.
+DFlipFlop: DFlipFlop/CMakeFiles/DFlipFlop.dir/rule
+.PHONY : DFlipFlop
+
+# codegen rule for target.
+DFlipFlop/CMakeFiles/DFlipFlop.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f DFlipFlop\CMakeFiles\DFlipFlop.dir\build.make DFlipFlop/CMakeFiles/DFlipFlop.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=4,5,6 "Finished codegen for target DFlipFlop"
+.PHONY : DFlipFlop/CMakeFiles/DFlipFlop.dir/codegen
+
+# clean rule for target.
+DFlipFlop/CMakeFiles/DFlipFlop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f DFlipFlop\CMakeFiles\DFlipFlop.dir\build.make DFlipFlop/CMakeFiles/DFlipFlop.dir/clean
+.PHONY : DFlipFlop/CMakeFiles/DFlipFlop.dir/clean
+
+#=============================================================================
 # Target rules for target NandGate/CMakeFiles/NandGate.dir
 
 # All Build rule for target.
 NandGate/CMakeFiles/NandGate.dir/all:
 	$(MAKE) $(MAKESILENT) -f NandGate\CMakeFiles\NandGate.dir\build.make NandGate/CMakeFiles/NandGate.dir/depend
 	$(MAKE) $(MAKESILENT) -f NandGate\CMakeFiles\NandGate.dir\build.make NandGate/CMakeFiles/NandGate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=4,5,6,7,8 "Built target NandGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=7,8,9,10,11 "Built target NandGate"
 .PHONY : NandGate/CMakeFiles/NandGate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,7 +414,7 @@ NandGate: NandGate/CMakeFiles/NandGate.dir/rule
 # codegen rule for target.
 NandGate/CMakeFiles/NandGate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f NandGate\CMakeFiles\NandGate.dir\build.make NandGate/CMakeFiles/NandGate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=4,5,6,7,8 "Finished codegen for target NandGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=7,8,9,10,11 "Finished codegen for target NandGate"
 .PHONY : NandGate/CMakeFiles/NandGate.dir/codegen
 
 # clean rule for target.
@@ -282,7 +429,7 @@ NandGate/CMakeFiles/NandGate.dir/clean:
 NorGate/CMakeFiles/NorGate.dir/all:
 	$(MAKE) $(MAKESILENT) -f NorGate\CMakeFiles\NorGate.dir\build.make NorGate/CMakeFiles/NorGate.dir/depend
 	$(MAKE) $(MAKESILENT) -f NorGate\CMakeFiles\NorGate.dir\build.make NorGate/CMakeFiles/NorGate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=9,10,11,12,13 "Built target NorGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=12,13,14,15,16 "Built target NorGate"
 .PHONY : NorGate/CMakeFiles/NorGate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -299,7 +446,7 @@ NorGate: NorGate/CMakeFiles/NorGate.dir/rule
 # codegen rule for target.
 NorGate/CMakeFiles/NorGate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f NorGate\CMakeFiles\NorGate.dir\build.make NorGate/CMakeFiles/NorGate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=9,10,11,12,13 "Finished codegen for target NorGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=12,13,14,15,16 "Finished codegen for target NorGate"
 .PHONY : NorGate/CMakeFiles/NorGate.dir/codegen
 
 # clean rule for target.
@@ -314,7 +461,7 @@ NorGate/CMakeFiles/NorGate.dir/clean:
 NotGate/CMakeFiles/NotGate.dir/all:
 	$(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/depend
 	$(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=14,15,16 "Built target NotGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=17,18,19 "Built target NotGate"
 .PHONY : NotGate/CMakeFiles/NotGate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -331,7 +478,7 @@ NotGate: NotGate/CMakeFiles/NotGate.dir/rule
 # codegen rule for target.
 NotGate/CMakeFiles/NotGate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f NotGate\CMakeFiles\NotGate.dir\build.make NotGate/CMakeFiles/NotGate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=14,15,16 "Finished codegen for target NotGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=17,18,19 "Finished codegen for target NotGate"
 .PHONY : NotGate/CMakeFiles/NotGate.dir/codegen
 
 # clean rule for target.
@@ -346,7 +493,7 @@ NotGate/CMakeFiles/NotGate.dir/clean:
 OrGate/CMakeFiles/OrGate.dir/all:
 	$(MAKE) $(MAKESILENT) -f OrGate\CMakeFiles\OrGate.dir\build.make OrGate/CMakeFiles/OrGate.dir/depend
 	$(MAKE) $(MAKESILENT) -f OrGate\CMakeFiles\OrGate.dir\build.make OrGate/CMakeFiles/OrGate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=17,18,19 "Built target OrGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=20,21,22 "Built target OrGate"
 .PHONY : OrGate/CMakeFiles/OrGate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -363,7 +510,7 @@ OrGate: OrGate/CMakeFiles/OrGate.dir/rule
 # codegen rule for target.
 OrGate/CMakeFiles/OrGate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f OrGate\CMakeFiles\OrGate.dir\build.make OrGate/CMakeFiles/OrGate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=17,18,19 "Finished codegen for target OrGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=20,21,22 "Finished codegen for target OrGate"
 .PHONY : OrGate/CMakeFiles/OrGate.dir/codegen
 
 # clean rule for target.
@@ -372,13 +519,141 @@ OrGate/CMakeFiles/OrGate.dir/clean:
 .PHONY : OrGate/CMakeFiles/OrGate.dir/clean
 
 #=============================================================================
+# Target rules for target ProducerConsumer/CMakeFiles/ProducerConsumer.dir
+
+# All Build rule for target.
+ProducerConsumer/CMakeFiles/ProducerConsumer.dir/all:
+	$(MAKE) $(MAKESILENT) -f ProducerConsumer\CMakeFiles\ProducerConsumer.dir\build.make ProducerConsumer/CMakeFiles/ProducerConsumer.dir/depend
+	$(MAKE) $(MAKESILENT) -f ProducerConsumer\CMakeFiles\ProducerConsumer.dir\build.make ProducerConsumer/CMakeFiles/ProducerConsumer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=23,24,25,26,27 "Built target ProducerConsumer"
+.PHONY : ProducerConsumer/CMakeFiles/ProducerConsumer.dir/all
+
+# Build rule for subdir invocation for target.
+ProducerConsumer/CMakeFiles/ProducerConsumer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ProducerConsumer/CMakeFiles/ProducerConsumer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 0
+.PHONY : ProducerConsumer/CMakeFiles/ProducerConsumer.dir/rule
+
+# Convenience name for target.
+ProducerConsumer: ProducerConsumer/CMakeFiles/ProducerConsumer.dir/rule
+.PHONY : ProducerConsumer
+
+# codegen rule for target.
+ProducerConsumer/CMakeFiles/ProducerConsumer.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f ProducerConsumer\CMakeFiles\ProducerConsumer.dir\build.make ProducerConsumer/CMakeFiles/ProducerConsumer.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=23,24,25,26,27 "Finished codegen for target ProducerConsumer"
+.PHONY : ProducerConsumer/CMakeFiles/ProducerConsumer.dir/codegen
+
+# clean rule for target.
+ProducerConsumer/CMakeFiles/ProducerConsumer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f ProducerConsumer\CMakeFiles\ProducerConsumer.dir\build.make ProducerConsumer/CMakeFiles/ProducerConsumer.dir/clean
+.PHONY : ProducerConsumer/CMakeFiles/ProducerConsumer.dir/clean
+
+#=============================================================================
+# Target rules for target SimpleAdder/CMakeFiles/SimpleAdder.dir
+
+# All Build rule for target.
+SimpleAdder/CMakeFiles/SimpleAdder.dir/all:
+	$(MAKE) $(MAKESILENT) -f SimpleAdder\CMakeFiles\SimpleAdder.dir\build.make SimpleAdder/CMakeFiles/SimpleAdder.dir/depend
+	$(MAKE) $(MAKESILENT) -f SimpleAdder\CMakeFiles\SimpleAdder.dir\build.make SimpleAdder/CMakeFiles/SimpleAdder.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=28,29,30 "Built target SimpleAdder"
+.PHONY : SimpleAdder/CMakeFiles/SimpleAdder.dir/all
+
+# Build rule for subdir invocation for target.
+SimpleAdder/CMakeFiles/SimpleAdder.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleAdder/CMakeFiles/SimpleAdder.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 0
+.PHONY : SimpleAdder/CMakeFiles/SimpleAdder.dir/rule
+
+# Convenience name for target.
+SimpleAdder: SimpleAdder/CMakeFiles/SimpleAdder.dir/rule
+.PHONY : SimpleAdder
+
+# codegen rule for target.
+SimpleAdder/CMakeFiles/SimpleAdder.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f SimpleAdder\CMakeFiles\SimpleAdder.dir\build.make SimpleAdder/CMakeFiles/SimpleAdder.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=28,29,30 "Finished codegen for target SimpleAdder"
+.PHONY : SimpleAdder/CMakeFiles/SimpleAdder.dir/codegen
+
+# clean rule for target.
+SimpleAdder/CMakeFiles/SimpleAdder.dir/clean:
+	$(MAKE) $(MAKESILENT) -f SimpleAdder\CMakeFiles\SimpleAdder.dir\build.make SimpleAdder/CMakeFiles/SimpleAdder.dir/clean
+.PHONY : SimpleAdder/CMakeFiles/SimpleAdder.dir/clean
+
+#=============================================================================
+# Target rules for target Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir
+
+# All Build rule for target.
+Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/all:
+	$(MAKE) $(MAKESILENT) -f Timer_SC_THREAD\CMakeFiles\Timer_SC_THREAD.dir\build.make Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/depend
+	$(MAKE) $(MAKESILENT) -f Timer_SC_THREAD\CMakeFiles\Timer_SC_THREAD.dir\build.make Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=31,32,33 "Built target Timer_SC_THREAD"
+.PHONY : Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/all
+
+# Build rule for subdir invocation for target.
+Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 0
+.PHONY : Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/rule
+
+# Convenience name for target.
+Timer_SC_THREAD: Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/rule
+.PHONY : Timer_SC_THREAD
+
+# codegen rule for target.
+Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f Timer_SC_THREAD\CMakeFiles\Timer_SC_THREAD.dir\build.make Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=31,32,33 "Finished codegen for target Timer_SC_THREAD"
+.PHONY : Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/codegen
+
+# clean rule for target.
+Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Timer_SC_THREAD\CMakeFiles\Timer_SC_THREAD.dir\build.make Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/clean
+.PHONY : Timer_SC_THREAD/CMakeFiles/Timer_SC_THREAD.dir/clean
+
+#=============================================================================
+# Target rules for target XnorGate/CMakeFiles/XnorGate.dir
+
+# All Build rule for target.
+XnorGate/CMakeFiles/XnorGate.dir/all:
+	$(MAKE) $(MAKESILENT) -f XnorGate\CMakeFiles\XnorGate.dir\build.make XnorGate/CMakeFiles/XnorGate.dir/depend
+	$(MAKE) $(MAKESILENT) -f XnorGate\CMakeFiles\XnorGate.dir\build.make XnorGate/CMakeFiles/XnorGate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=34,35,36,37,38,39,40 "Built target XnorGate"
+.PHONY : XnorGate/CMakeFiles/XnorGate.dir/all
+
+# Build rule for subdir invocation for target.
+XnorGate/CMakeFiles/XnorGate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 XnorGate/CMakeFiles/XnorGate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles 0
+.PHONY : XnorGate/CMakeFiles/XnorGate.dir/rule
+
+# Convenience name for target.
+XnorGate: XnorGate/CMakeFiles/XnorGate.dir/rule
+.PHONY : XnorGate
+
+# codegen rule for target.
+XnorGate/CMakeFiles/XnorGate.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f XnorGate\CMakeFiles\XnorGate.dir\build.make XnorGate/CMakeFiles/XnorGate.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=34,35,36,37,38,39,40 "Finished codegen for target XnorGate"
+.PHONY : XnorGate/CMakeFiles/XnorGate.dir/codegen
+
+# clean rule for target.
+XnorGate/CMakeFiles/XnorGate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f XnorGate\CMakeFiles\XnorGate.dir\build.make XnorGate/CMakeFiles/XnorGate.dir/clean
+.PHONY : XnorGate/CMakeFiles/XnorGate.dir/clean
+
+#=============================================================================
 # Target rules for target XorGate/CMakeFiles/XorGate.dir
 
 # All Build rule for target.
 XorGate/CMakeFiles/XorGate.dir/all:
 	$(MAKE) $(MAKESILENT) -f XorGate\CMakeFiles\XorGate.dir\build.make XorGate/CMakeFiles/XorGate.dir/depend
 	$(MAKE) $(MAKESILENT) -f XorGate\CMakeFiles\XorGate.dir\build.make XorGate/CMakeFiles/XorGate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=20,21,22,23,24,25 "Built target XorGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=41,42,43,44,45,46 "Built target XorGate"
 .PHONY : XorGate/CMakeFiles/XorGate.dir/all
 
 # Build rule for subdir invocation for target.
@@ -395,7 +670,7 @@ XorGate: XorGate/CMakeFiles/XorGate.dir/rule
 # codegen rule for target.
 XorGate/CMakeFiles/XorGate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f XorGate\CMakeFiles\XorGate.dir\build.make XorGate/CMakeFiles/XorGate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=20,21,22,23,24,25 "Finished codegen for target XorGate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\PERSONAL\Documents\SystemC\Practice\build\CMakeFiles --progress-num=41,42,43,44,45,46 "Finished codegen for target XorGate"
 .PHONY : XorGate/CMakeFiles/XorGate.dir/codegen
 
 # clean rule for target.
