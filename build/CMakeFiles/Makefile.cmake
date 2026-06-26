@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/AndGate/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/CMakeLists.txt"
+  "C:/Users/PERSONAL/Documents/SystemC/Practice/ClockGenerator_SC_THREAD/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/DFlipFlop/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/NandGate/CMakeLists.txt"
   "C:/Users/PERSONAL/Documents/SystemC/Practice/NorGate/CMakeLists.txt"
@@ -67,6 +68,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "AndGate/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "ClockGenerator_SC_THREAD/CMakeFiles/CMakeDirectoryInformation.cmake"
   "DFlipFlop/CMakeFiles/CMakeDirectoryInformation.cmake"
   "NandGate/CMakeFiles/CMakeDirectoryInformation.cmake"
   "NorGate/CMakeFiles/CMakeDirectoryInformation.cmake"
@@ -82,6 +84,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "AndGate/CMakeFiles/AndGate.dir/DependInfo.cmake"
+  "ClockGenerator_SC_THREAD/CMakeFiles/ClockGenerator_SC_THREAD.dir/DependInfo.cmake"
   "DFlipFlop/CMakeFiles/DFlipFlop.dir/DependInfo.cmake"
   "NandGate/CMakeFiles/NandGate.dir/DependInfo.cmake"
   "NorGate/CMakeFiles/NorGate.dir/DependInfo.cmake"

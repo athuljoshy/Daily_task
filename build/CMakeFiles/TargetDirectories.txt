@@ -3,6 +3,9 @@ C:/Users/PERSONAL/Documents/SystemC/Practice/build/CMakeFiles/rebuild_cache.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/AndGate.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/edit_cache.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/AndGate/CMakeFiles/rebuild_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/ClockGenerator_SC_THREAD/CMakeFiles/ClockGenerator_SC_THREAD.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/ClockGenerator_SC_THREAD/CMakeFiles/edit_cache.dir
+C:/Users/PERSONAL/Documents/SystemC/Practice/build/ClockGenerator_SC_THREAD/CMakeFiles/rebuild_cache.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/DFlipFlop/CMakeFiles/DFlipFlop.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/DFlipFlop/CMakeFiles/edit_cache.dir
 C:/Users/PERSONAL/Documents/SystemC/Practice/build/DFlipFlop/CMakeFiles/rebuild_cache.dir
